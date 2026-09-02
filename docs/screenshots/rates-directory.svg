@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0a18"/>
+      <stop offset="100%" stop-color="#16102a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="650" fill="url(#bg)"/>
+  <text x="600" y="80" text-anchor="middle" fill="#f5f0ff" font-family="Segoe UI, Arial" font-size="32" font-weight="800">Exchange Rates Directory</text>
+  <text x="600" y="115" text-anchor="middle" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="15">Browse all currencies alphabetically</text>
+  <rect x="60" y="140" width="1080" height="470" rx="20" fill="#1a1230" stroke="#5a3c82"/>
+  <rect x="90" y="170" width="500" height="36" rx="8" fill="#0c0816" stroke="#5a3c82"/>
+  <text x="110" y="193" fill="#7a6a96" font-family="Segoe UI, Arial" font-size="13">Search by code, name, or country...</text>
+  <rect x="900" y="170" width="210" height="36" rx="8" fill="#0c0816" stroke="#5a3c82"/>
+  <text x="920" y="193" fill="#f5f0ff" font-family="Segoe UI, Arial" font-size="13">USD - US Dollar</text>
+  <g transform="translate(90,230)">
+    <rect x="0" y="0" width="38" height="32" rx="8" fill="url(#accent)"/>
+    <text x="10" y="21" fill="#fff" font-family="Segoe UI, Arial" font-size="11" font-weight="700">All</text>
+    <rect x="46" y="0" width="32" height="32" rx="8" fill="#0c0816" stroke="#5a3c82"/>
+    <text x="58" y="21" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="11" font-weight="700">A</text>
+    <rect x="86" y="0" width="32" height="32" rx="8" fill="#0c0816" stroke="#5a3c82"/>
+    <text x="98" y="21" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="11" font-weight="700">B</text>
+    <rect x="126" y="0" width="32" height="32" rx="8" fill="#0c0816" stroke="#5a3c82"/>
+    <text x="138" y="21" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="11" font-weight="700">C</text>
+    <text x="200" y="21" fill="#7a6a96" font-family="Segoe UI, Arial" font-size="12">... A  Z filter</text>
+  </g>
+  <text x="90" y="295" fill="#7a6a96" font-family="Segoe UI, Arial" font-size="12">154 currencies · Last updated: 2026-09-02</text>
+  <rect x="90" y="315" width="1020" height="36" rx="6" fill="#0c0816"/>
+  <text x="110" y="338" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="11" font-weight="700">CODE</text>
+  <text x="280" y="338" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="11" font-weight="700">CURRENCY</text>
+  <text x="520" y="338" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="11" font-weight="700">COUNTRY</text>
+  <text x="900" y="338" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="11" font-weight="700">RATE</text>
+  <rect x="90" y="360" width="1020" height="44" fill="#1e1638"/>
+  <rect x="110" y="375" width="24" height="16" rx="2" fill="#cc0000"/>
+  <text x="145" y="388" fill="#a78bfa" font-family="Segoe UI, Arial" font-size="13" font-weight="800">MYR</text>
+  <text x="280" y="388" fill="#f5f0ff" font-family="Segoe UI, Arial" font-size="13">Malaysian Ringgit</text>
+  <text x="520" y="388" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="13">Malaysia</text>
+  <text x="900" y="388" fill="#f9a8d4" font-family="Segoe UI, Arial" font-size="13" font-weight="700">4.0384</text>
+  <rect x="90" y="404" width="1020" height="44" fill="transparent"/>
+  <rect x="110" y="419" width="24" height="16" rx="2" fill="#3b5998"/>
+  <text x="145" y="432" fill="#a78bfa" font-family="Segoe UI, Arial" font-size="13" font-weight="800">USD</text>
+  <text x="280" y="432" fill="#f5f0ff" font-family="Segoe UI, Arial" font-size="13">US Dollar</text>
+  <text x="520" y="432" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="13">United States</text>
+  <text x="900" y="432" fill="#f9a8d4" font-family="Segoe UI, Arial" font-size="13" font-weight="700">1.0000</text>
+  <rect x="90" y="448" width="1020" height="44" fill="#1e1638"/>
+  <rect x="110" y="463" width="24" height="16" rx="2" fill="#0039a6"/>
+  <text x="145" y="476" fill="#a78bfa" font-family="Segoe UI, Arial" font-size="13" font-weight="800">EUR</text>
+  <text x="280" y="476" fill="#f5f0ff" font-family="Segoe UI, Arial" font-size="13">Euro</text>
+  <text x="520" y="476" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="13">Eurozone</text>
+  <text x="900" y="476" fill="#f9a8d4" font-family="Segoe UI, Arial" font-size="13" font-weight="700">0.9215</text>
+  <rect x="90" y="492" width="1020" height="44" fill="transparent"/>
+  <rect x="110" y="507" width="24" height="16" rx="2" fill="#bc002d"/>
+  <text x="145" y="520" fill="#a78bfa" font-family="Segoe UI, Arial" font-size="13" font-weight="800">SGD</text>
+  <text x="280" y="520" fill="#f5f0ff" font-family="Segoe UI, Arial" font-size="13">Singapore Dollar</text>
+  <text x="520" y="520" fill="#b8a8d4" font-family="Segoe UI, Arial" font-size="13">Singapore</text>
+  <text x="900" y="520" fill="#f9a8d4" font-family="Segoe UI, Arial" font-size="13" font-weight="700">1.2730</text>
+</svg>

@@ -1,0 +1,25 @@
+# Sensitive files — never commit
+includes/config.local.php
+.env
+.env.*
+.env.local
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies (if added later)
+/vendor/
+/node_modules/
+
+# Temporary / debug
+diag.php
+test_*.php
