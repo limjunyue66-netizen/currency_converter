@@ -20,9 +20,9 @@ define('DB_USER', 'root');
 define('DB_PASS', 'your_password_here');
 define('DB_CHARSET', 'utf8mb4');
 
-// Application URL path (use '' if installed at web root)
-define('APP_URL', '/Currency_converter');
+// Application URL path — auto-detected by default.
+// Only set if installed in a subfolder (e.g. '/currency'):
+// define('APP_URL', '/currency');
 
-// Production settings
 define('FORCE_HTTPS', false);
 define('DEBUG_MODE', false);

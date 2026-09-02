@@ -16,6 +16,8 @@ define('DB_USER', 'root');
 define('DB_PASS', 'your_password_here');
 define('DB_CHARSET', 'utf8mb4');
 
-define('APP_URL', '/Currency_converter');
+// APP_URL is auto-detected. Only uncomment if you install in a subfolder:
+// define('APP_URL', '/your-subfolder');
+
 define('FORCE_HTTPS', false);
 define('DEBUG_MODE', false);

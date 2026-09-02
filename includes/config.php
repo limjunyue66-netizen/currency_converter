@@ -3,17 +3,33 @@ declare(strict_types=1);
 
 /**
  * Application configuration.
- * Copy config.local.example.php to config.local.php to override settings.
+ * Copy config.local.example.php to config.local.php for local overrides.
  */
 
 if (is_file(__DIR__ . '/config.local.php')) {
     require_once __DIR__ . '/config.local.php';
 }
 
+/**
+ * Auto-detect URL base path from the current script location.
+ * Works on XAMPP subfolders and cPanel public_html root.
+ */
+function detectAppUrl(): string
+{
+    $script = $_SERVER['SCRIPT_NAME'] ?? '/index.php';
+    $dir = str_replace('\\', '/', dirname($script));
+
+    if ($dir === '/' || $dir === '.' || $dir === '') {
+        return '';
+    }
+
+    return rtrim($dir, '/');
+}
+
 if (!defined('APP_NAME')) define('APP_NAME', 'Currency Converter');
 if (!defined('APP_VERSION')) define('APP_VERSION', '1.0.0');
 if (!defined('APP_BASE_PATH')) define('APP_BASE_PATH', dirname(__DIR__));
-if (!defined('APP_URL')) define('APP_URL', '/Currency_converter');
+if (!defined('APP_URL')) define('APP_URL', detectAppUrl());
 
 if (!defined('DB_HOST')) define('DB_HOST', 'localhost');
 if (!defined('DB_NAME')) define('DB_NAME', 'currency_converter');
