@@ -1,6 +1,6 @@
 # Screenshots
 
-Preview images for the Currency Converter application.
+Preview images for the Currency Converter application (PNG format for GitHub README compatibility).
 
 | File | Description |
 |------|-------------|
@@ -8,4 +8,4 @@ Preview images for the Currency Converter application.
 | `rates-directory.png` | A–Z exchange rates directory |
 | `historical-chart.png` | Historical rate chart |
 
-These images are used in the project README.
+> **Note:** GitHub README does not display SVG images in `<img>` tags. Use PNG files for README screenshots.

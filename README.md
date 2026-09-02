@@ -4,9 +4,14 @@ A complete currency converter web application built with PHP 8+, MySQL, HTML5, C
 
 ## Screenshots
 
-| Converter | Rates Directory | Historical Chart |
-|-----------|-----------------|------------------|
-| ![Converter](docs/screenshots/converter.svg) | ![Rates Directory](docs/screenshots/rates-directory.svg) | ![Historical Chart](docs/screenshots/historical-chart.svg) |
+### Currency Converter
+![Currency Converter](docs/screenshots/converter.png)
+
+### Exchange Rates Directory
+![Exchange Rates Directory](docs/screenshots/rates-directory.png)
+
+### Historical Chart
+![Historical Chart](docs/screenshots/historical-chart.png)
 
 ## Features
 
